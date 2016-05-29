@@ -175,3 +175,8 @@ ENV/
 
 # Rope project settings
 .ropeproject
+
+#project specific files
+*.zip
+*.pdf
+PROC-NUM/
