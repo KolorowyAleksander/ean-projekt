@@ -23,15 +23,15 @@
 #include <fstream>
 #include <float.h>
 #include <typeinfo>
-#include "Utils.h"
+//#include "Utils.h"
 
 using namespace std;
 
 namespace interval_arithmetic {
 //
-//enum IAMode {
-//	DINT_MODE, PINT_MODE
-//};
+enum IAMode {
+	DINT_MODE, PINT_MODE
+};
 
 enum IAPrecision {
 	LONGDOUBLE_PREC = 80, DOUBLE_PREC = 60, FLOAT_PREC = 60
